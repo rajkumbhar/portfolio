@@ -43,7 +43,6 @@ header{
 }    
 
 .about-me{
-    @extend %small-bold;
     text-transform: uppercase;
     font-family: Ubuntu, sans-serif;
     color: #ce954b;
@@ -173,7 +172,7 @@ form {
     resize: none;
 }
     input,textarea:focus {
-      @include box-shadow(0 0px 2px rgba($red, 1)!important);
+      box-shadow: 0 0px 2px rgba($red, 1);
     }
   
   #input-submit {
@@ -184,7 +183,7 @@ form {
     font-size: 15px;
 }
     #input-submit:hover {
-      @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
+      box-shadow: 0 1px 1px 1px rgba(#aaa, 0.6);
     }
   
   textarea {
