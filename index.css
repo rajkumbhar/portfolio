@@ -93,7 +93,25 @@ header{
     
 }
 
- 
+span{
+    display: inline-block;
+    padding: 0.003px 0.003px;
+    background-color:  #d9d9d9;
+    margin-right: 7px;
+    border-radius: 50%;
+    }
+span:after{
+    content: '';
+    display: block;
+    padding: 6px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 3px;
+}
+
+.skill{
+    background: #ce954b;
+}
 
 footer{
     background: url(index_bg.jpg) center center ;
