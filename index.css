@@ -17,7 +17,7 @@ header{
     font-size: 72px;
     font-size: 60px;
     font-weight: 700;
-    font-family: ubuntu;
+    font-family: Ubuntu, sans-serif;
     color: white;
     text-transform: uppercase;
     letter-spacing: 0.05em;
@@ -45,7 +45,7 @@ header{
 .about-me{
     @extend %small-bold;
     text-transform: uppercase;
-    font-family: ubuntu;
+    font-family: Ubuntu, sans-serif;
     color: #ce954b;
     padding: 40px 0 30px;
     text-align: center;
@@ -67,7 +67,7 @@ header{
     margin-right: 25%;
     padding-top: 40px;
     line-height: 30px;
-    font-family: ubuntu;
+    font-family: Ubuntu, sans-serif;
     justify-content: center;
     text-align: center;
     font-size: 24px;
@@ -131,6 +131,103 @@ footer{
 
 }
 
+@import "compass/css3";
+@import url(http://fonts.googleapis.com/css?family=Merriweather);
+$red: #e74c3c;
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+html,
+body {
+  background: #f1f1f1;
+    font-family: Ubuntu, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #a8a8a8;
+  text-shadow: 1px 1px 0 rgba(white, 1);
+}
+
+form {
+  max-width: 600px;
+  text-align: center;
+  margin: 20px auto;
+  padding-left: 3em;
+  padding-right: 3em;
+}
+  input,
+  textarea {
+    border: 0;
+    outline: 0;
+    padding: 1em;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    font-size: 14px;
+    margin-top: 1em;
+      font-family: Ubuntu, sans-serif;
+    @include box-shadow(0 1px 1px rgba(black, 0.1));
+    resize: none;
+}
+    input,textarea:focus {
+      @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  
+  #input-submit {
+    color: white;
+    background:  #deb887;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+    #input-submit:hover {
+      @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
+    }
+  
+  textarea {
+    height: 160px;
+  }
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right {
+  width: 50%;
+}
+
+.left {
+  margin-right: 2%;
+}
+
+@media (max-width: 480px) {
+  .half {
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+}
+
+
+/* Clearfix */
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
 /*all media */
 
 @media screen and (max-width: 600px){
@@ -144,13 +241,18 @@ footer{
 @media screen and (max-width: 700px){
     .skill-lockup{
 
-    padding-bottom: 650px;
+    padding-bottom: 590px;
     max-width: 270px;
     margin: 100px auto;
     color: #999;
 }
     
 }
+
+
+
+
+
 
 
 
