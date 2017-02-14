@@ -113,14 +113,6 @@ span:after{
     background: #ce954b;
 }
 
-footer{
-    background: url(index_bg.jpg) center center ;
-    background-size: cover;`
-    padding: 10px;
-    padding-left: 50px; 
-
-}
-
 
 .content-wrap{
 
@@ -276,6 +268,7 @@ a:hover{
     font-size: 7vw;
     font-weight: 300;
     margin: 0 auto;
+    color: white;
     text-decoration: none;
     line-height: 1;
 }
@@ -301,7 +294,13 @@ a:hover{
 
 }
 
-
+footer{
+    background: url(index_bg.jpg) center center ;
+    background-size: cover;`
+    padding: 10px;
+    padding-left: 50px; 
+    height: 20%;
+}
 
 
 
