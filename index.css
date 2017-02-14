@@ -225,11 +225,9 @@ form {
 /** contact icon section  */
 
 .section-contact{
-    background: #cccccc;
-    height: 60%;
     text-align: center;
-}
 
+}
 #contact{
     padding-top: 30px;
     margin-top: 90px;
@@ -264,14 +262,24 @@ a:hover{
 }
 
 .biglink{
+    padding-bottom: 50px;
     display: inline-block;
     font-size: 7vw;
     font-weight: 300;
     margin: 0 auto;
-    color: white;
+    color: black;
     text-decoration: none;
     line-height: 1;
 }
+
+footer{
+    background: url(index_bg.jpg) center center ;
+    background-size: cover;`
+    padding: 10px;
+    padding-left: 50px; 
+    height: 20%;
+}
+
 /*all media */
 
 @media screen and (max-width: 600px){
@@ -290,16 +298,6 @@ a:hover{
     margin: 100px auto;
     color: #999;
 }
-    
-
-}
-
-footer{
-    background: url(index_bg.jpg) center center ;
-    background-size: cover;`
-    padding: 10px;
-    padding-left: 50px; 
-    height: 20%;
 }
 
 
