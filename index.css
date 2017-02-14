@@ -240,7 +240,6 @@ form {
     margin: auto;
     max-width: 600px;
     justify-content: space-around;
-    display: flex;
     flex-wrap: wrap;
     padding-bottom: 12px;
 }
