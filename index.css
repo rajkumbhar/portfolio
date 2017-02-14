@@ -241,12 +241,13 @@ form {
     max-width: 800px;
     justify-content: space-around;
     flex-wrap: wrap;
+    display:flex;
     padding-bottom: 12px;
 }
 
 a{
     display: block;
-    line-height: 50px;
+    line-height: 30px;
     margin: 20px;
     position: relative;
 }
