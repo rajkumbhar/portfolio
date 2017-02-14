@@ -238,17 +238,17 @@ form {
 
 .social-links{
     margin: auto;
-    max-width: 800px;
+    max-width: 700px;
     justify-content: space-around;
     flex-wrap: wrap;
-    display:flex;
-    padding-bottom: 12px;
+    display: flex;
+    padding-bottom: 10px;
 }
 
 a{
-    display: block;
-    line-height: 30px;
-    margin: 20px;
+    display: inline-block;
+    line-height: 40px;
+    margin: 15px;
     position: relative;
 }
 a:hover{
@@ -299,8 +299,7 @@ footer{
     background-size: cover;`
     padding: 10px;
     padding-left: 50px; 
-    height: 30%;
-    color: white:
+    height: 20%;
 }
 
 
